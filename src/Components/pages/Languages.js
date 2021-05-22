@@ -5,7 +5,7 @@ export default class Languages extends Component {
     render() {
         return  (
             <div>
-                <h6 style={{color: "black"}}>Languages</h6>
+                <h6 style={{color: "black"}}><br />Languages</h6>
                 <Table striped bordered hover>
                   <thead>
                     <tr>

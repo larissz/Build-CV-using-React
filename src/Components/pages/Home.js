@@ -13,14 +13,15 @@ export default class Home extends Component {
             <section>
                 <div class="row">
                     <div className="col s12 l3 grey lighten-2">
-                        <p></p>
-                        <img src={MyPhoto} width="95" height="105" alt=""/>
-                           <h6 style={{color: "black", fontWeight: "bold"}}>Larisa Szabo</h6>
+                        <br></br><br></br><br></br>
+                        <img src={MyPhoto} width="95" height="102" alt=""/>
+                           <h6 style={{color: "black", fontWeight: "bold"}}><br></br>Larisa Szabo</h6>
                         <About />
                         <Languages />
                         <Skills />
                     </div>
-                    <div className="col s12 l7 white">
+                    <div className="col s12 l9 white">
+                        <br></br><br></br><br></br>
                         <Profile />
                         <Education />
                     </div>
