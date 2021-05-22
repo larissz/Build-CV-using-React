@@ -5,7 +5,7 @@ import Education from "../../Components/pages/Education";
 import About from "../../Components/pages/About";
 import Skills from "../../Components/pages/Skills";
 import ReactRoundedImage from 'react-rounded-image';
-import MyPhoto from '../../Components/pages/images/photo.png';
+import MyPhoto from '../../Components/pages/images/image.png';
 
 export default class Home extends Component {
     render() {
@@ -18,15 +18,15 @@ export default class Home extends Component {
 
                 <div class="row">
                     <div className="col s12 l1 white"></div>
-                    <div className="col s12 l3 purple lighten-4">
-                        <br></br><br></br><br></br>
-                        <img src={MyPhoto} width="95" height="102" alt=""/>
-                           <h6 style={{color: "black", fontWeight: "bold"}}><br></br>Larisa Szabo</h6>
+                    <div className="col s12 l3 purple lighten-2">
+                        <br></br><br></br>
+                        <img src={MyPhoto} width="150" height="170" alt=""/>
+                           <h6 style={{color: "black", fontWeight: "bold"}}>Larisa Szabo</h6>
                         <About />
                         <Languages />
                         <Skills />
                     </div>
-                    <div className="col s12 l7 white">
+                    <div className="col s12 l7 purple lighten-5">
                         <br></br><br></br><br></br>
                         <Profile />
                         <Education />
