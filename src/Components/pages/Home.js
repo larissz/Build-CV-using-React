@@ -4,6 +4,8 @@ import Languages from "./Languages";
 import Education from "../../Components/pages/Education";
 import About from "../../Components/pages/About";
 import Skills from "../../Components/pages/Skills";
+import Communication from "../../Components/pages/Communication";
+import Organisation from "../../Components/pages/Organisation";
 import ReactRoundedImage from 'react-rounded-image';
 import MyPhoto from '../../Components/pages/images/image.png';
 
@@ -30,6 +32,8 @@ export default class Home extends Component {
                         <br></br><br></br><br></br>
                         <Profile />
                         <Education />
+                        <Communication />
+                        <Organisation />
                     </div>
                     <div className="col s12 l1 white">
                     </div>
