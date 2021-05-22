@@ -11,7 +11,7 @@ export default class Organization extends Component {
                 <p style={{textAlign: "left"}}>
                     &nbsp;&nbsp;&nbsp;Good team-leading and communication skills, flexible person, responsible, organised<br/>
                 </p>
-                <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                <br></br>
             </div>
         );
     }
