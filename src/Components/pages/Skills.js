@@ -25,6 +25,7 @@ export default class Skills extends Component {
                     </tr>
                  </tbody>
                 </Table>
+                <br></br><br></br>
       </div>
         );
     }

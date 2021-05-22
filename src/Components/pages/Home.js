@@ -12,7 +12,13 @@ export default class Home extends Component {
         return (
             <section>
                 <div class="row">
-                    <div className="col s12 l3 grey lighten-2">
+                    <div className="col s12 l1 white">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div className="col s12 l1 white"></div>
+                    <div className="col s12 l3 purple lighten-4">
                         <br></br><br></br><br></br>
                         <img src={MyPhoto} width="95" height="102" alt=""/>
                            <h6 style={{color: "black", fontWeight: "bold"}}><br></br>Larisa Szabo</h6>
@@ -20,7 +26,7 @@ export default class Home extends Component {
                         <Languages />
                         <Skills />
                     </div>
-                    <div className="col s12 l9 white">
+                    <div className="col s12 l7 white">
                         <br></br><br></br><br></br>
                         <Profile />
                         <Education />
